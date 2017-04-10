@@ -1,17 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Fjalla+One|Palanquin+Dark');
 
 html{
+  position: relative;
+  min-height: 100%;
 
 }
 body{
   background-size: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
+  background-image: url(../assets/fabric_of_squares_gray.png);
+
 }
+footer {
+  border: 2px solid rgba(145, 147, 145, 0.68);
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 0 0 15px 5px;
+}
+footer img{
+  margin: 5px;
+  margin-top: 6px;
+  height: 70%;
+}
+a{
+  text-decoration: none;
+}
+
 #topPart{
   background-image: url(../assets/GrayPattern1600x1000.jpg);
-  border-radius: 5px;
-
+  border-radius: 12px;
+  margin: 20px 5px 0 5px;
+}
+#workButton{
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  cursor:pointer;
 }
 .navbarDiv{
   padding: 5px;
@@ -22,6 +54,7 @@ body{
   display: inline;
   padding: 0;
   margin: 0;
+  font-size: 18px;
 
 
 }
@@ -33,52 +66,145 @@ body{
 
 .navbar li a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: rgba(13, 12, 12, 0.8);
 
 }
 .imageDiv{
-  border-radius: 5px;
   height: 260px;
 
 }
 .imageDiv h1{
   margin: 2px;
   font-size: 72px;
-  color: #FFFFFF;
+  color: rgba(187, 183, 187, 0.86);
   text-align: left;
   text-shadow: 3px 3px rgba(7, 13, 13, 0.54);
 
-
 }
+
 .imageOfMe{
   height: 250px;
   width: 250px;
-  border-radius: 5px;
+  border-radius: 10px;
   float: left;
   margin-left: 1%;
 
 
 }
-.name{
+.name {
   float: left;
   margin: 30px;
   border-radius: 5px;
-
-
+  font-family: 'Fjalla One', sans-serif;
 }
 
+.aboutMeContainer{
+  border-radius: 12px;
+  border: 3px solid rgba(145, 147, 145, 0.68);
+  text-align: center;
+  color: rgba(97, 99, 97, 0.92);
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px 5px 80px 5px;
+
+}
+.downArrow{
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+.head{
+  text-align: center;
+  margin: 5px;
+  color: black;
+
+}
+.imageThumbnail{
+  margin: 15px;
+  height: 200px;
+  border-radius: 12px;
+
+}
+.workContainer h2{
+  margin-top: 15px;
+  background-color: inherit;
+}
+.workContainer p{
+  margin: 0;
+  padding-right: 40px;
+  padding-top: 1%;
+  background-color: inherit;
+
+}
+.fudr:hover{
+  background-color: rgba(186, 187, 186, 0.42);
+}
+
+.fudr{
+  margin: 5px;
+  border-radius: 12px;
+  border: 2px solid rgba(145, 147, 145, 0.68);
+  background-color: rgba(185, 187, 185, 0.16);
+  color: rgba(97, 99, 97, 0.92);
+  font-size: 18px;
+  padding: 0 5px 0 5px;
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+
+}
+.amDS:hover{
+  background-color: rgba(186, 187, 186, 0.42);
+}
+.amDS{
+  margin: 15px 5px 15px 5px;
+  border-radius: 12px;
+  border: 2px solid rgba(145, 147, 145, 0.68);
+  background-color: rgba(185, 187, 185, 0.16);
+  color: rgba(97, 99, 97, 0.92);
+  font-size: 18px;
+  padding: 0 5px 0 5px;
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+}
+.funThings:hover{
+  background-color: rgba(186, 187, 186, 0.42);
+}
+.funThings{
+  margin: 15px 5px 15px 5px;
+  border-radius: 12px;
+  border: 2px solid rgba(145, 147, 145, 0.68);
+  background-color: rgba(185, 187, 185, 0.16);
+  color: rgba(97, 99, 97, 0.92);
+  font-size: 18px;
+  padding: 0 5px 0 5px;
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+}
+
+.footerSpace{
+  height: 55px;
+}
 
 /*	-------------------------- ANIMATION -------------------------- */
 
 .delay-one {
-	-webkit-animation-delay: 1s;
-	animation-delay: 1s;
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
 }
 
 .delay-two {
-	-webkit-animation-delay: 1.4s;
-	animation-delay: 1.4s;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
 }
+.delay-three {
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+
+
 
 /* FADE IN LEFT */
 

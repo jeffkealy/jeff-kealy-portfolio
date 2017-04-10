@@ -4,23 +4,84 @@
     <meta charset="utf-8">
     <title>Jeff Kealy</title>
     <link rel="stylesheet" href="../styles/style.css">
-
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="../vendors/jquery-3.1.1.min.js"></script>
+    <script src="../scripts/client.js"></script>
   </head>
   <body>
-    <div id="topPart">
-      <div class="navbarDiv">
+    <div id="topPart" class="animated fadeIn">
+      <div class="navbarDiv animated fadeInUp delay-two">
         <ul class="navbar">
-          <li><a href="#">Work</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#">jeffkealy@gmail.com</a></li>
+          <li><a href="#">Life</a></li>
+          <li><a href="#"><button id="workButton">Work</button></a></li>
         </ul>
       </div>
       <div class="imageDiv">
-        <img class="imageOfMe" src="../assets/me.jpg" alt="me">
-        <div class="name">
-          <h1 class="animated fadeInLeft">Jeff</h1>
-          <h1 class="animated fadeInRight">Kealy</h1>
+        <img class="imageOfMe animated fadeInRight" src="../assets/me.jpg" alt="me">
+        <div class="name animated fadeInRight delay-one">
+          <h1 class="animated fadeInLeft fadeInDown delay-one">Jeff</h1>
+          <h1 class="animated fadeInRight fadeInUp delay-one">Kealy</h1>
         </div>
       </div>
     </div>
+    <div class="animated fadeIn delay-three">
+      <div class="aboutMeContainer">
+        <p>I'm Jeff. I am a software developer from Minneapolis, MN.<br>
+          <br> My experience is in these technologies
+          <br>JavaScript : AngularJs : Angular Material : jQuery : HTML5 : CSS3 : Express : Node.js : Bootstrap : MongoDB : SQL : Adobe Photoshop
+          <br>
+          <br>
+          I'm a learner, a doer, and have a strong connection with developing community.
+        </p>
+        <img class="downArrow" src="../assets/ic_keyboard_arrow_down_black_24px.svg" alt="">
+      </div>
+    </div>
+    <div class="workContainer">
+      <h1 class="head">Work</h1>
+      <a href= "https://calm-reef-45769.herokuapp.com/#/home" target="_blank">
+        <div class="fudr">
+          <img class="imageThumbnail" src="../assets/FudrScreenShot.png" alt="">
+          <div class="description">
+            <h2>Füdr</h2>
+            <p>Füdr is a site I created myself. It is an app to help decide where to eat in south Minneapolis. It pulls a random dish from a MongoDB database that I have assembled and allows the user to choose if the dish is something they might like to eat. Restaurant information is pulled from Factual API. I would suggest not looking at this if you're hungry. Actually, look at it even if you are :)</p>
+          </div>
+        </div>
+      </a>
+      <a href= "https://infinite-wave-45440.herokuapp.com/" target="_blank">
+        <div class="amDS">
+          <img class="imageThumbnail" src="../assets/ADSScreenShot.png" alt="ADS">
+          <div class="description">
+            <h2>American Drapery Systems</h2>
+            <p> American Drapery Systmes asked us to build a web application to help input, keep track of, and manipulate measurement data when doing a survey for a client.
+              I did a lot of the front-end work, setting up input fields and moving the data to the appropriate routes, along with styling. </p>
+          </div>
+        </div>
+      </a>
+      <a href= "https://stark-woodland-23344.herokuapp.com/#/" target="_blank">
+        <div class="funThings">
+          <img class="imageThumbnail" src="../assets/FunThingsScreenShot.png" alt="ADS">
+          <div class="description">
+            <h2>Fun Things</h2>
+            <p> Fun Things web application was created in one afternoon with a group.  I did most of the front end work on this app.  The trickiest part was getting the swipe to work on the cards. I used an already created directive called ng-swippy. Anyone can add "fun things" so there may be some odd ones.  </p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="lifeContainer">
+      <h1 class="head">Life</h1>
+      <div class="fudr">
+        Test
+        <!-- <img src="../assets/FudrScreenShot.png" alt=""> -->
+      </div>
+    </div>
+    <div class="footerSpace"></div>
+    <footer>
+      <a href="https://github.com/jeffkealy" target="_blank"><img src="../assets/GitHub-Mark-64px.png" alt="github"></a>
+      <a href="https://www.linkedin.com/in/jeff-kealy-489a58a" target="_blank"><img src="../assets/1491624698_square-linkedin.svg" alt="linkedIn"></a>
+      <a href="mailto:jeffkealy@gmail.com" target="_blank"><img src="../assets/ic_email_black_24px (1).svg" alt="email"></a>
+      <a href="#top"><img src="../assets/ic_arrow_upward_black_24px.svg" alt="email"></a>
+
+    </footer>
   </body>
 </html>
