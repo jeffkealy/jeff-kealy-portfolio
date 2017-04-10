@@ -168,6 +168,9 @@ a{
   align-items: left;
   cursor: pointer;
 }
+.amDS .description{
+  padding-left: 15px;
+}
 .funThings:hover{
   background-color: rgba(186, 187, 186, 0.42);
 }
@@ -183,7 +186,24 @@ a{
   align-items: left;
   cursor: pointer;
 }
-
+.styleInTheHood:hover{
+  background-color: rgba(186, 187, 186, 0.42);
+}
+.styleInTheHood{
+  margin: 15px 5px 15px 5px;
+  border-radius: 12px;
+  border: 2px solid rgba(145, 147, 145, 0.68);
+  background-color: rgba(185, 187, 185, 0.16);
+  color: rgba(97, 99, 97, 0.92);
+  font-size: 18px;
+  padding: 0 5px 0 5px;
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+}
+.styleInTheHood .description{
+  padding-left: 15px;
+}
 .footerSpace{
   height: 55px;
 }

@@ -10,9 +10,8 @@ $(document).ready(function(){
   sr.reveal('.workContainer h1');
   sr.reveal('.fudr');
   sr.reveal('.amDS');
-
-
-  sr.reveal('.lifeContainer')
+  sr.reveal('.funThings');
+  sr.reveal('.styleInTheHood');
   //scroll to work div
   $("#workButton").click(function() {
     $('html, body').animate({
