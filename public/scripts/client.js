@@ -12,6 +12,8 @@ $(document).ready(function(){
   sr.reveal('.amDS');
   sr.reveal('.funThings');
   sr.reveal('.styleInTheHood');
+  sr.reveal('.aboutMeContainerMobile');
+
   //scroll to work div
   $("#workButton").click(function() {
     $('html, body').animate({

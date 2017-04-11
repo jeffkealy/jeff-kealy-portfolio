@@ -208,6 +208,75 @@ a{
   height: 55px;
 }
 
+/*----------------resizing------------------------------------------*/
+@media handheld, only screen and (max-width: 600px)
+{
+  html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  }
+  body {
+    position: relative
+  }
+  .navbar{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+
+  }
+  .navbar li{
+    padding: 12px;
+
+  }
+  .aboutMeContainer{
+    border-radius: 12px;
+    border: 3px solid rgba(145, 147, 145, 0.68);
+    text-align: center;
+    color: rgba(97, 99, 97, 0.92);
+    font-size: 18px;
+    padding: 20px;
+    margin: 32px 5px 80px 5px;
+    display: inline-block;
+
+  }
+  .aboutMeContainer p{
+    margin-top: 30px;
+  }
+  .aboutMeContainerMobile{
+
+  }
+  .imageOfMe{
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 12%;
+  }
+  .imageDiv{
+  }
+  .imageThumbnail{
+    margin: 9px 5px 0 5px;
+    max-width: 95%;
+    border-radius: 12px;
+
+  }
+  .fudr{
+    display: block;
+    padding: 0 4px 4px 4px;
+  }
+
+  .amDS{
+    display: block;
+  }
+  .funThings{
+    display: block;
+  }
+  .styleInTheHood{
+    display: block;
+  }
+
+}
+
 /*	-------------------------- ANIMATION -------------------------- */
 
 .delay-one {
@@ -223,7 +292,6 @@ a{
 	-webkit-animation-delay: 1.5s;
 	animation-delay: 1.5s;
 }
-
 
 
 /* FADE IN LEFT */
