@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Fjalla+One|Palanquin+Dark');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Fjalla+One|Palanquin+Dark|Comfortaa');
 
 html{
   position: relative;
@@ -8,7 +8,7 @@ html{
 }
 body{
   background-size: 100%;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
   background-image: url(../assets/fabric_of_squares_gray.png);
 
@@ -73,14 +73,7 @@ a{
   height: 260px;
 
 }
-.imageDiv h1{
-  margin: 2px;
-  font-size: 72px;
-  color: rgba(187, 183, 187, 0.86);
-  text-align: left;
-  text-shadow: 3px 3px rgba(7, 13, 13, 0.54);
 
-}
 
 .imageOfMe{
   height: 250px;
@@ -93,9 +86,18 @@ a{
 }
 .name {
   float: left;
-  margin: 30px;
+  margin: 30px 30px 30px 30px;
   border-radius: 5px;
   font-family: 'Fjalla One', sans-serif;
+}
+.name h1{
+  margin: 2px;
+  font-size: 72px;
+  color: rgba(28, 18, 28, 1);
+  text-align: left;
+  /*text-shadow: 3px 3px rgba(7, 13, 13, 0.54);*/
+  font-family: 'Comfortaa', cursive;
+
 }
 
 .aboutMeContainer{
@@ -134,7 +136,6 @@ a{
   padding-right: 40px;
   padding-top: 1%;
   background-color: inherit;
-
 }
 .fudr:hover{
   background-color: rgba(186, 187, 186, 0.42);
@@ -153,6 +154,9 @@ a{
   cursor: pointer;
 
 }
+.fudr p {
+  padding: 0 15px 15px 0;
+}
 .amDS:hover{
   background-color: rgba(186, 187, 186, 0.42);
 }
@@ -163,14 +167,12 @@ a{
   background-color: rgba(185, 187, 185, 0.16);
   color: rgba(97, 99, 97, 0.92);
   font-size: 18px;
-  padding: 0 5px 0 5px;
+  padding: 0 5px 0 20px;
   display: flex;
   align-items: left;
   cursor: pointer;
 }
-.amDS .description{
-  padding-left: 15px;
-}
+
 .funThings:hover{
   background-color: rgba(186, 187, 186, 0.42);
 }
@@ -201,7 +203,7 @@ a{
   align-items: left;
   cursor: pointer;
 }
-.styleInTheHood .description{
+.styleInTheHood > div{
   padding-left: 15px;
 }
 .footerSpace{
@@ -209,14 +211,16 @@ a{
 }
 
 /*----------------resizing------------------------------------------*/
-@media handheld, only screen and (max-width: 600px)
+
+@media only screen and (max-width: 481px)
 {
   html, body {
   overflow-x: hidden;
   max-width: 100%;
   }
   body {
-    position: relative
+    position: relative;
+    text-align: center;
   }
   .navbar{
     list-style-type: none;
@@ -244,6 +248,15 @@ a{
   .aboutMeContainer p{
     margin-top: 30px;
   }
+  .workContainer p{
+    margin: 0;
+    padding-right: 0px;
+    padding-top: 1%;
+    background-color: inherit;
+  }
+  .container{
+    padding: 0;
+  }
   .aboutMeContainerMobile{
 
   }
@@ -259,6 +272,14 @@ a{
     max-width: 95%;
     border-radius: 12px;
 
+  }
+  .description{
+    padding: 0;
+  }
+
+  .description p{
+    text-align: left;
+    padding: 10px;
   }
   .fudr{
     display: block;
@@ -276,6 +297,25 @@ a{
   }
 
 }
+
+@media only screen and (min-width: 481px) and (max-width: 900px)
+{
+  .aboutMeContainerMobile {
+
+  }
+  img{
+    margin: 0 0 0 15px;
+  }
+  .description p {
+    text-align: left;
+    padding-left: 10%;
+  }
+  .container{
+    display: block;
+    text-align: center;
+  }
+}
+
 
 /*	-------------------------- ANIMATION -------------------------- */
 
