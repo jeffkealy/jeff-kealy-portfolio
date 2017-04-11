@@ -8,6 +8,7 @@ $(document).ready(function(){
   //scroll appear
   window.sr = ScrollReveal({reset: true});
   sr.reveal('.workContainer h1');
+  sr.reveal('.lifeContainer h1');
   sr.reveal('.fudr');
   sr.reveal('.amDS');
   sr.reveal('.funThings');
@@ -18,6 +19,12 @@ $(document).ready(function(){
   $("#workButton").click(function() {
     $('html, body').animate({
         scrollTop: $(".workContainer").offset().top
+    }, 600);
+  });
+  //scroll to life div
+  $("#lifeButton").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".lifeContainer").offset().top
     }, 600);
 });
 })

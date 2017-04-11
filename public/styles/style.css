@@ -45,6 +45,14 @@ a{
   padding: 0;
   cursor:pointer;
 }
+#lifeButton{
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  cursor:pointer;
+}
 .navbarDiv{
   padding: 5px;
 
