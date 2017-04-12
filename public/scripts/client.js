@@ -13,6 +13,7 @@ $(document).ready(function(){
   sr.reveal('.amDS');
   sr.reveal('.funThings');
   sr.reveal('.styleInTheHood');
+  sr.reveal('.ttatc');
   sr.reveal('.aboutMeContainerMobile');
 
   //scroll to work div
