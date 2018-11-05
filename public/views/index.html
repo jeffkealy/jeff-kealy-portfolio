@@ -10,13 +10,13 @@
     <script src="../scripts/client.js"></script>
   </head>
   <body>
-    <div id="topPart" class="animated fadeIn">
+    <div id="header" class="animated fadeIn">
       <div class="navbarDiv animated fadeInUp delay-two">
         <ul class="navbar">
-          <li></li>
           <li><a href="https://docs.google.com/document/d/1LMKS168eTtZ5ln81cD07HhrxY9U91o1qXR4oHbTdGXs/edit?usp=sharing">Resume</a></li>
-          <li><a href="#"><button id="lifeButton">Life</button></a></li>
-          <li><a href="#"><button id="workButton">Work</button></a></li>
+          <li><a href="#"><button id="projectsButton">Projects</button></a></li>
+          <!-- <li><a href="#"><button id="workButton">Work</button></a></li> -->
+
         </ul>
       </div>
       <div class="imageDiv">
@@ -31,7 +31,7 @@
       <div class="aboutMeContainer aboutMeContainerMobile">
         <p>I'm Jeff. I am a software developer from Minneapolis, MN.<br>
           <br> My experience is in these technologies
-          <br>JavaScript : AngularJS : Angular Material : jQuery : HTML5 : CSS3 : SCSS : Express : Node.js : Bootstrap : MongoDB : SQL : Firebase : Adobe Photoshop
+          <br>JavaScript: jQuery : ReactJS : AngularJS  : HTML5 : CSS3 : SCSS : Angular Material : Express : Node.js : Bootstrap : MongoDB : SQL : Adobe Photoshop : Adobe Illustrator
           <br>
           <br>
           I'm a learner, a doer, and have a strong connection with developing community.
@@ -39,8 +39,26 @@
         <img class="downArrow" src="../assets/ic_keyboard_arrow_down_black_24px.svg" alt="">
       </div>
     </div>
-    <div class="workContainer">
+    <!-- <div class="workContainer">
       <h1 class="head">Work</h1>
+    </div> -->
+    <!-- pprojects -->
+    <div class="projectsContainer animated fadeIn delay-two">
+      <h1 class="head">Projects</h1>
+      <a href= "https://fudr.herokuapp.com/" target="_blank">
+        <div class="fudr-remake container">
+          <div class="description">
+            <h2>Füdr remake</h2>
+            <p>
+              ReactJS, Apollo, HTML5, CSS, Node.js, Express.js, MongoDB
+              <br>
+              <br>
+              I wanted to learn how to use ReactJS so I recreated the Füdr app. There is more functionality and the app runs much faster. This version is currently a prototype as I am currently deciding which features I want to add to the app.</p>
+          </div>
+          <img class="imageThumbnail" src="../assets/FudrRemakeScreenShot.png" alt="">
+
+        </div>
+      </a>
       <a href= "https://calm-reef-45769.herokuapp.com/#/home" target="_blank">
         <div class="fudr container">
           <img class="imageThumbnail" src="../assets/FudrScreenShot.png" alt="">
@@ -71,25 +89,20 @@
 
         </div>
       </a>
-      <a href= "https://stark-woodland-23344.herokuapp.com/#/" target="_blank">
-        <div class="funThings container">
-          <img class="imageThumbnail" src="../assets/FunThingsScreenShot.png" alt="ADS">
+      <a href= "http://www.ttatc.com/" target="_blank">
+        <div class="ttatc container">
+          <img class="imageThumbnail" src="../assets/TTATC9ScreenShot.jpg" alt="ttatc">
           <div class="description">
-            <h2>Fun Things</h2>
-            <p>
-                AngularJS, Angular Material, HTML5, CSS, Node.js, Express.js, MongoDB, ng-swippy
-                <br>
-                <br>
-                Fun Things web application was created in an afternoon as part of a recurring hack-a-thon.
-              I performed most of the front end duties on this app.
-              The trickiest part was getting the card swipe to work properly from a public directive called ng-swippy.   </p>
+            <h2>That Thing At The Cabin</h2>
+            <p> HTML5, CSS3, WordPress
+              <br>
+              <br>
+                That Thing At The Cabin is a annual festival that takes place in Le Seur, MN.
+                I helped create this WordPress site and I manage and make updates as needed by the event organizers.
+            </p>
           </div>
         </div>
       </a>
-
-    </div>
-    <div class="lifeContainer">
-      <h1 class="head">Life</h1>
       <a href= "https://style-in-the-hood.herokuapp.com/#!/home" target="_blank">
         <div class="styleInTheHood container">
           <div class="description">
@@ -104,17 +117,18 @@
           <img class="imageThumbnail" src="../assets/StyleInTheHoodScreenShot.png" alt="styleInTheHood">
         </div>
       </a>
-      <a href= "http://www.ttatc.com/" target="_blank">
-        <div class="ttatc container">
-          <img class="imageThumbnail" src="../assets/TTATCScreenShot.png" alt="ttatc">
+      <a href= "https://stark-woodland-23344.herokuapp.com/#/" target="_blank">
+        <div class="funThings container">
+          <img class="imageThumbnail" src="../assets/FunThingsScreenShot.png" alt="ADS">
           <div class="description">
-            <h2>That Thing At The Cabin</h2>
-            <p> HTML5, CSS3, WordPress
-              <br>
-              <br>
-                That Thing At The Cabin is a annual festival that takes place in Le Seur, MN.
-                I helped create this WordPress site and I manage and make updates as needed by the event organizers.
-            </p>
+            <h2>Fun Things</h2>
+            <p>
+                AngularJS, Angular Material, HTML5, CSS, Node.js, Express.js, MongoDB, ng-swippy
+                <br>
+                <br>
+                Fun Things web application was created in an afternoon as part of a recurring hack-a-thon.
+              I performed most of the front end duties on this app.
+              The trickiest part was getting the card swipe to work properly from a public directive called ng-swippy.   </p>
           </div>
         </div>
       </a>

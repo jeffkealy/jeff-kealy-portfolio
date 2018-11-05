@@ -8,13 +8,14 @@ $(document).ready(function(){
   //scroll appear
   window.sr = ScrollReveal({reset: true});
   sr.reveal('.workContainer h1');
-  sr.reveal('.lifeContainer h1');
-  sr.reveal('.fudr');
-  sr.reveal('.amDS');
-  sr.reveal('.funThings');
-  sr.reveal('.styleInTheHood');
-  sr.reveal('.ttatc');
-  sr.reveal('.aboutMeContainerMobile');
+  sr.reveal('.projectsContainer h1');
+  sr.reveal('.fudr-remake',{ delay: 100 });
+  sr.reveal('.fudr',{ delay: 100 });
+  sr.reveal('.amDS',{ delay: 100 });
+  sr.reveal('.funThings',{ delay: 100 });
+  sr.reveal('.styleInTheHood',{ delay: 100 });
+  sr.reveal('.ttatc',{ delay: 100 });
+  sr.reveal('.aboutMeContainerMobile',{ delay: 100 });
 
   //scroll to work div
   $("#workButton").click(function() {
@@ -22,10 +23,10 @@ $(document).ready(function(){
         scrollTop: $(".workContainer").offset().top
     }, 600);
   });
-  //scroll to life div
-  $("#lifeButton").click(function() {
+  //scroll to projects div
+  $("#projectsButton").click(function() {
     $('html, body').animate({
-        scrollTop: $(".lifeContainer").offset().top
+        scrollTop: $(".projectsContainer").offset().top
     }, 600);
 });
 })

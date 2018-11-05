@@ -12,6 +12,7 @@ body{
   font-weight: bold;
   background-image: url(../assets/fabric_of_squares_gray.png);
 
+
 }
 footer {
   border: 2px solid rgba(145, 147, 145, 0.68);
@@ -32,8 +33,9 @@ a{
   text-decoration: none;
 }
 
-#topPart{
+#header{
   background-image: url(../assets/GrayPattern1600x1000.jpg);
+  background-size: cover;
   border-radius: 12px;
   margin: 20px 5px 0 5px;
 }
@@ -45,7 +47,7 @@ a{
   padding: 0;
   cursor:pointer;
 }
-#lifeButton{
+#projectsButton{
   border: none;
   background-color: inherit;
   font-family: inherit;
@@ -59,11 +61,11 @@ a{
 }
 .navbar{
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   padding: 0;
   margin: 0;
   font-size: 18px;
-
+  float: right;
 
 }
 .navbar li{
@@ -118,6 +120,9 @@ a{
   margin: 20px 5px 80px 5px;
 
 }
+.aboutMeContainer p{
+  margin-top: 30px
+}
 .downArrow{
   width: 75px;
   height: 75px;
@@ -139,22 +144,15 @@ a{
   margin-top: 15px;
   background-color: inherit;
 }
-.workContainer p{
-  margin: 0;
-  padding-right: 40px;
-  padding-top: 1%;
-  background-color: inherit;
+.projectsContainer{
+  margin-top: 200px;
 }
-.workContainer{
-  margin-bottom: 80px;
-}
-
-.fudr:hover{
+.container:hover{
   background-color: rgba(186, 187, 186, 0.42);
 }
 
-.fudr{
-  margin: 5px;
+.container{
+  margin: 5px 5px 10px 5px;
   border-radius: 12px;
   border: 2px solid rgba(145, 147, 145, 0.68);
   background-color: rgba(185, 187, 185, 0.16);
@@ -166,73 +164,11 @@ a{
   cursor: pointer;
 
 }
-.fudr p {
-  padding: 0 15px 15px 0;
-}
-.amDS:hover{
-  background-color: rgba(186, 187, 186, 0.42);
-}
-.amDS{
-  margin: 15px 5px 15px 5px;
-  border-radius: 12px;
-  border: 2px solid rgba(145, 147, 145, 0.68);
-  background-color: rgba(185, 187, 185, 0.16);
-  color: rgba(97, 99, 97, 0.92);
-  font-size: 18px;
-  padding: 0 5px 5px 20px;
-  display: flex;
-  align-items: left;
-  cursor: pointer;
+
+.description{
+  padding: 8px;
 }
 
-.funThings:hover{
-  background-color: rgba(186, 187, 186, 0.42);
-}
-.funThings{
-  margin: 15px 5px 15px 5px;
-  border-radius: 12px;
-  border: 2px solid rgba(145, 147, 145, 0.68);
-  background-color: rgba(185, 187, 185, 0.16);
-  color: rgba(97, 99, 97, 0.92);
-  font-size: 18px;
-  padding: 0 5px 5px 5px;
-  display: flex;
-  align-items: left;
-  cursor: pointer;
-}
-.styleInTheHood:hover{
-  background-color: rgba(186, 187, 186, 0.42);
-}
-.styleInTheHood{
-  margin: 15px 5px 15px 5px;
-  border-radius: 12px;
-  border: 2px solid rgba(145, 147, 145, 0.68);
-  background-color: rgba(185, 187, 185, 0.16);
-  color: rgba(97, 99, 97, 0.92);
-  font-size: 18px;
-  padding: 0 5px 0 5px;
-  display: flex;
-  align-items: left;
-  cursor: pointer;
-}
-.styleInTheHood > div{
-  padding-left: 15px;
-}
-.ttatc:hover{
-  background-color: rgba(186, 187, 186, 0.42);
-}
-.ttatc{
-  margin: 15px 5px 15px 5px;
-  border-radius: 12px;
-  border: 2px solid rgba(145, 147, 145, 0.68);
-  background-color: rgba(185, 187, 185, 0.16);
-  color: rgba(97, 99, 97, 0.92);
-  font-size: 18px;
-  padding: 0 5px 0 5px;
-  display: flex;
-  align-items: left;
-  cursor: pointer;
-}
 .footerSpace{
   height: 55px;
 }
@@ -282,6 +218,7 @@ a{
     background-color: inherit;
   }
   .container{
+    display: block;
     padding: 0 0 5px 0;
   }
   .aboutMeContainerMobile{
@@ -292,47 +229,26 @@ a{
     border-radius: 10px;
     margin-left: 12%;
   }
-  .imageDiv{
-  }
   .imageThumbnail{
-    margin: 9px 5px 0 5px;
+    margin: 15px 5px ;
     max-width: 95%;
     border-radius: 12px;
 
   }
   .description{
-    padding: 0;
+    padding: o;
   }
 
   .description p{
     text-align: left;
     padding: 10px;
   }
-  .fudr{
-    display: block;
-    padding: 0 4px 4px 4px;
-  }
 
-  .amDS{
-    display: block;
-  }
-  .funThings{
-    display: block;
-  }
-  .styleInTheHood{
-    display: block;
-  }
-  .ttatc{
-    display: block;
-  }
 
 }
 
 @media only screen and (min-width: 481px) and (max-width: 900px)
 {
-  .aboutMeContainerMobile {
-
-  }
   img{
     margin: 0 0 0 15px;
   }
