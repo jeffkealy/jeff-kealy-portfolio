@@ -10,7 +10,7 @@ $(document).ready(function(){
   sr.reveal('.workContainer h1');
   sr.reveal('.projectsContainer h1');
   sr.reveal('.fudr-remake',{ delay: 100 });
-  sr.reveal('.fudr',{ delay: 100 });
+  sr.reveal('.vacation',{ delay: 100 });
   sr.reveal('.amDS',{ delay: 100 });
   sr.reveal('.funThings',{ delay: 100 });
   sr.reveal('.styleInTheHood',{ delay: 100 });
