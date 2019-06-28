@@ -11,10 +11,11 @@ $(document).ready(function(){
   sr.reveal('.projectsContainer h1');
   sr.reveal('.fudr-remake',{ delay: 100 });
   sr.reveal('.vacation',{ delay: 100 });
-  sr.reveal('.amDS',{ delay: 100 });
   sr.reveal('.funThings',{ delay: 100 });
   sr.reveal('.styleInTheHood',{ delay: 100 });
   sr.reveal('.ttatc',{ delay: 100 });
+  sr.reveal('.dtyd',{ delay: 100 });
+
   sr.reveal('.aboutMeContainerMobile',{ delay: 100 });
 
   //scroll to work div
