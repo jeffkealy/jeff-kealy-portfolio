@@ -62,7 +62,7 @@ a{
 }
 .navbar{
   list-style-type: none;
-  display: inline-block;
+  display: block;
   padding: 0;
   margin: 0;
   font-size: 18px;
@@ -129,11 +129,13 @@ a{
   max-width: 1280px;
   margin: 0 auto;
 }
+.design{
+  margin: 0 0 20px;
+}
 .development-title, .design-title{
   font-weight: 700;
   margin: 0;
   -webkit-text-stroke: 1px rgba(97, 99, 97, 0.92);
-  text-stroke: 1px rgba(97, 99, 97, 0.92);
 }
 .aboutMeContent div{
   line-height: 2;
@@ -238,9 +240,6 @@ a{
   .container{
     display: block;
     padding: 0 0 5px 0;
-  }
-  .aboutMeContainerMobile{
-
   }
   .imageOfMe{
     height: 90%;
