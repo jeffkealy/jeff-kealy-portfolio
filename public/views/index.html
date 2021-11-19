@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <title>Jeff Kealy</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css" />
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="../vendors/jquery-3.1.1.min.js"></script>
     <script src="../scripts/client.js"></script>
@@ -21,132 +21,159 @@
     ></script>
   </head>
   <body>
-    <div id="header" class="animated fadeIn">
-      <div class="navbarDiv animated fadeInUp delay-two">
-        <ul class="navbar">
-          <li><a href="https://docs.google.com/document/d/1LMKS168eTtZ5ln81cD07HhrxY9U91o1qXR4oHbTdGXs/edit?usp=sharing">Resume</a></li>
-          <li><a href="#"><button id="projectsButton">Projects</button></a></li>
-          <!-- <li><a href="#"><button id="workButton">Work</button></a></li> -->
-        </ul>
-      </div>
-      <div class="imageDiv">
-        <img class="imageOfMe animated fadeInRight" src="../assets/me.jpg" alt="me">
-        <div class="name animated fadeInRight delay-one">
-          <h1 class="animated fadeInLeft fadeInDown delay-one">Jeff</h1>
-          <h1 class="animated fadeInRight fadeInUp delay-one">Kealy</h1>
+    <div id="mainContainer">
+      <div id="header" class="animated fadeIn">
+        <div class="navbarDiv animated fadeInUp delay-two">
+          <ul class="navbar">
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1LMKS168eTtZ5ln81cD07HhrxY9U91o1qXR4oHbTdGXs/edit?usp=sharing"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a href="#"><button id="projectsButton">Projects</button></a>
+            </li>
+            <!-- <li><a href="#"><button id="workButton">Work</button></a></li> -->
+          </ul>
+        </div>
+        <div class="imageDiv">
+          <img class="imageOfMe animated fadeInRight" src="../assets/me.jpg" alt="me" />
+          <div class="name animated fadeInRight delay-one">
+            <h1 class="animated fadeInLeft fadeInDown delay-one">Jeff</h1>
+            <h1 class="animated fadeInRight fadeInUp delay-one">Kealy</h1>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="animated fadeIn delay-two">
-      <div class="aboutMeContainer aboutMeContainerMobile">
-        <div class="aboutMeContent">
-          <p>I'm Jeff. I am a software developer and designer from Minneapolis, MN.
+      <div class="animated fadeIn delay-two">
+        <div class="aboutMeContainer aboutMeContainerMobile">
+          <div class="aboutMeContent">
+            <p>I'm Jeff. I am a software developer and designer from Minneapolis, MN.</p>
             <div class="development">
-              <h3 class="development-title">
-                Development
-              </h3>
-              JavaScript: jQuery : ReactJS : AngularJS  : PHP : WordPress : HTML5 : CSS3 : SCSS : Angular Material : Express : Node.js : Bootstrap : MongoDB : SQL
+              <h3 class="development-title">Development</h3>
+              JavaScript : jQuery : ReactJS : AngularJS : PHP : WordPress : HTML5 : CSS3 :
+              SCSS : Angular Material : Express : Node.js : Bootstrap : MongoDB : SQL
             </div>
-            <br>
+            <br />
             <div class="design">
-              <h3 class="design-title">
-                Design
-              </h3>
-              Adobe Photoshop : Adobe Illustrator : Adobe After Effects : Adobe Animate
+              <h3 class="design-title">Design</h3>
+              Adobe Photoshop : Adobe Illustrator : Adobe Premiere Pro : Adobe After
+              Effects : Adobe Animate : Adobe Audition : FL Studio
             </div>
-            I'm a learner, a doer, and have a strong connection with developing community.
-          </p>
-          <img class="downArrow" src="../assets/ic_keyboard_arrow_down_black_24px.svg" alt="">
+            <p>
+              I'm a learner, a doer, and have a strong connection with developing
+              community.
+            </p>
+            <div>
+              <img
+                class="downArrow"
+                src="../assets/ic_keyboard_arrow_down_black_24px.svg"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- <div class="workContainer">
-      <h1 class="head">Work</h1>
-    </div> -->
-    <!-- pprojects -->
-    <div class="projectsContainer animated fadeIn delay-two">
-      <h1 class="head">Projects</h1>
-      <a href= "https://fudr.herokuapp.com/" target="_blank">
-        <div class="fudr-remake container">
-          <div class="description">
-            <h2>Füdr</h2>
-            <p>
-              ReactJS, Apollo, HTML5, CSS, Node.js, Express.js, MongoDB
-              <br>
-              <br>
-              Do you ever had trouble deciding where to eat?
-              I sure do. I usually go to google maps and search restaurants but that isn't enought. Enter Füdr. "It's like Tinder but for food".  Füdr is for the visual eater. It provides random dishes from various restaurants and allows the user to swipe right or swipe left. This version is currently a prototype as I am currently deciding which features I want to add to the app.</p>
-          </div>
-          <img class="imageThumbnail" src="../assets/FudrRemakeScreenShot.png" alt="">
+      <!-- pprojects -->
+      <div class="projectsContainer animated fadeIn delay-two">
+        <h1 class="head">Development Projects</h1>
+        <!-- fudr -->
+        <a href="/fudr" target="_blank">
+          <div class="fudr-remake container">
+            <img class="imageThumbnail" src="../assets/fudrv3.png" alt="" />
 
-        </div>
-      </a>
-      <a href= "https://q-it-vacation.herokuapp.com/" target="_blank">
-        <div class="vacation container space-between">
-
-          <div class="description ">
-            <h2>Vacation Tracker</h2>
-            <p>
-              ReactJS, HTML5, CSS, SCSS, Node.js, Express.js, MongoDB, Heroku,
-              <br>
-              <br>
-              We never knew how much PTO we had left. So I made an app...
-            </p>
-          </div>
-          <img class="imageThumbnail" src="../assets/Vacation-tracker-screenshot.jpg" alt="">
-
-        </div>
-      </a>
-      <a href= "http://www.ttatc.com/" target="_blank">
-        <div class="ttatc container">
-          <img class="imageThumbnail" src="../assets/TTATC9ScreenShot.jpg" alt="ttatc">
-          <div class="description">
-            <h2>That Thing At The Cabin</h2>
-            <p> HTML5, CSS3, WordPress, PHP
-              <br>
-              <br>
-                That Thing At The Cabin is a annual festival that takes place in Le Seur, MN.
-                I helped create this WordPress site and I manage and make updates as needed by the event organizers.
-            </p>
-          </div>
-        </div>
-      </a>
-      <a href= "https://dtyd.herokuapp.com/#" target="_blank">
-        <div class="dtyd container space-between">
-          <div class="description">
-            <h2>Dab 'til you Drake</h2>
-            <p>
-              HTMl, CSS, JQuery, Node.js, Express.js
-              <br>
-              <br>
-              Dab 'til you Drake is a fun joke. "What do the kids like these days? Dabbing and Drake"
+            <div class="description">
+              <h2>Füdr</h2>
+              <p>
+                ReactJS, Apollo, HTML5, CSS, Material-UI, Node.js, Express.js, MongoDB
+                <br />
+                <br />
+                Do you ever had trouble deciding where to eat? I sure do. I usually go to
+                google maps and search restaurants but that isn't enought. Enter Füdr.
+                "It's like Tinder but for food". Füdr is for the visual eater. It provides
+                random dishes from various restaurants and allows the user to swipe right
+                or swipe left. This version is currently a prototype as I am currently
+                deciding which features I want to add to the app.
               </p>
+            </div>
           </div>
-          <img class="imageThumbnail" src="../assets/dtyd-screenshot.jpg" alt="styleInTheHood">
-        </div>
-      </a>
-      <a href= "https://stark-woodland-23344.herokuapp.com/#/" target="_blank">
-        <div class="funThings container">
-          <img class="imageThumbnail" src="../assets/FunThingsScreenShot.png" alt="ADS">
-          <div class="description">
-            <h2>Fun Things</h2>
-            <p>
-                AngularJS, Angular Material, HTML5, CSS, Node.js, Express.js, MongoDB, ng-swippy
-                <br>
-                <br>
-                Fun Things web application was created in an afternoon as part of a recurring hack-a-thon.
-              I performed most of the front end duties on this app.
-              The trickiest part was getting the card swipe to work properly from a public directive called ng-swippy.   </p>
+        </a>
+        <!-- Vactaion tracker  -->
+        <a href="https://q-it-vacation.herokuapp.com/" target="_blank">
+          <div class="vacation container space-between">
+            <div class="description">
+              <h2>Vacation Tracker</h2>
+              <p>
+                ReactJS, HTML5, CSS, SCSS, Node.js, Express.js, MongoDB, Heroku,
+                <br />
+                <br />
+                We never knew how much PTO we had left. So I made an app...
+              </p>
+            </div>
+            <img
+              class="imageThumbnail"
+              src="../assets/Vacation-tracker-screenshot.jpg"
+              alt=""
+            />
           </div>
-        </div>
-      </a>
+        </a>
+        <!-- TTATC -->
+        <a href="http://www.ttatc.com/" target="_blank">
+          <div class="ttatc container">
+            <img
+              class="imageThumbnail"
+              src="../assets/TTATC9ScreenShot.jpg"
+              alt="ttatc"
+            />
+            <div class="description">
+              <h2>That Thing At The Cabin</h2>
+              <p>
+                HTML5, CSS3, WordPress, PHP
+                <br />
+                <br />
+                That Thing At The Cabin is a annual festival that takes place in Le Seur,
+                MN. I helped create this WordPress site and I manage and make updates as
+                needed by the event organizers.
+              </p>
+            </div>
+          </div>
+        </a>
+        <!-- Dab til you Drake -->
+        <a href="https://dtyd.herokuapp.com/#" target="_blank">
+          <div class="dtyd container space-between">
+            <div class="description">
+              <h2>Dab 'til you Drake</h2>
+              <p>
+                HTMl, CSS, JQuery, Node.js, Express.js
+                <br />
+                <br />
+                Dab 'til you Drake is a fun joke. "What do the kids like these days?
+                Dabbing and Drake"
+              </p>
+            </div>
+            <img
+              class="imageThumbnail"
+              src="../assets/dtyd-screenshot.jpg"
+              alt="styleInTheHood"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="footerSpace"></div>
+      <footer>
+        <a href="https://github.com/jeffkealy" target="_blank"
+          ><img src="../assets/GitHub-Mark-64px.png" alt="github"
+        /></a>
+        <a href="https://www.linkedin.com/in/jeff-kealy-489a58a" target="_blank"
+          ><img src="../assets/1491624698_square-linkedin.svg" alt="linkedIn"
+        /></a>
+        <a href="mailto:jeffkealy@gmail.com" target="_blank"
+          ><img src="../assets/ic_email_black_24px (1).svg" alt="email"
+        /></a>
+        <a href="#top"
+          ><img src="../assets/ic_arrow_upward_black_24px.svg" alt="email"
+        /></a>
+      </footer>
     </div>
-    <div class="footerSpace"></div>
-    <footer>
-      <a href="https://github.com/jeffkealy" target="_blank"><img src="../assets/GitHub-Mark-64px.png" alt="github"></a>
-      <a href="https://www.linkedin.com/in/jeff-kealy-489a58a" target="_blank"><img src="../assets/1491624698_square-linkedin.svg" alt="linkedIn"></a>
-      <a href="mailto:jeffkealy@gmail.com" target="_blank"><img src="../assets/ic_email_black_24px (1).svg" alt="email"></a>
-      <a href="#top"><img src="../assets/ic_arrow_upward_black_24px.svg" alt="email"></a>
-    </footer>
   </body>
 </html>

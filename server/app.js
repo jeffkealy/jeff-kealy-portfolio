@@ -17,6 +17,9 @@ app.get("/page2", function (req, res) {
 app.get("/page3", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/views/page3.html"));
 });
+app.get("/fudr", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/views/fudr.html"));
+});
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/views/index.html"));
 });
